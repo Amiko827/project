@@ -1,0 +1,10 @@
+const name = prompt("name");
+alert(name);
+const last_name = prompt("last name");
+alert(last_name);
+const age = prompt("age");
+alert(age);
+const username = prompt("username");
+alert(username);
+const password = prompt("password");
+alert(password);
