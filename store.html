@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minimal Store</title>
+    <link rel="stylesheet" href="store.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        SHOP.
+        <div class="sub">MINIMAL STORE</div>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <div class="icons">🔍 🛒</div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <div class="badge">NEW COLLECTION</div>
+
+        <h1>Everyday essentials, thoughtfully designed.</h1>
+
+        <p>
+          A simple, clean layout for your future e-commerce store. Products are
+          static for now, but the design is ready for real data later.
+        </p>
+
+        <div class="buttons">
+          <button class="primary" onclick="browse()">Browse products</button>
+          <button class="secondary">Learn more</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="product-card">
+          <div class="featured">FEATURED</div>
+
+          <div class="image"></div>
+
+          <h3>Linen Overshirt</h3>
+          <p class="price">$79.00</p>
+
+          <span class="stock">In stock · Free shipping</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2>Products</h2>
+      <p class="subtext">
+        A fixed list of items for now. Later, this can be powered by an API and
+        JavaScript.
+      </p>
+
+      <div class="filter">
+        <span class="active">All</span>
+        <span>Clothing</span>
+        <span>Accessories</span>
+        <span>Home</span>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="badge blue">NEW</div>
+          <div class="img"></div>
+          <h3>Linen Overshirt</h3>
+          <p>Clothing</p>
+          <span>$79.00</span>
+          <button>Add to cart</button>
+        </div>
+
+        <div class="card">
+          <div class="badge orange">BESTSELLER</div>
+          <div class="img img2"></div>
+          <h3>Everyday Tote Bag</h3>
+          <p>Accessories</p>
+          <span>$39.00</span>
+          <button>Add to cart</button>
+        </div>
+
+        <div class="card">
+          <div class="img img3"></div>
+          <h3>Ceramic Mug Set</h3>
+          <p>Home</p>
+          <span>$29.00</span>
+          <button>Add to cart</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
